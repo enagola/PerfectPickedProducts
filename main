@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+		}
+
+		li {
+			float: left;
+		}
+
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		li a:hover {
+			background-color: #111;
+		}
+
+		.active {
+			background-color: #4CAF50;
+		}
+
+		.container {
+			margin-top: 30px;
+			padding: 20px;
+			font-size: 30px;
+			min-height: 500px;
+		}
+	</style>
+</head>
+<body>
+	<ul>
+		<li><a class="active" href="#" onclick="showPage(0)">Page 1</a></li>
+		<li><a href="#" onclick="showPage(1)">Calendar</a></li>
+		<li><a href="#" onclick="showPage(2)">Page 3</a></li>
+		<li><a href="#" onclick="showPage(3)">Page 4</a></li>
+	</ul>
+	<div class="container">
+		<div id="page1" style="display: block;">This is Page 1</div>
+		<div id="page2" style="display: none;">
+      <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&showTitle=0&showPrint=0&showTabs=0&src=ZGZiOTZiOTY1Yjc1ZmM4NTk2MTNkZDY3N2EwNTM4YzMxYzg5NGIyNzZiZDFmMDBkOTY5NDFlZDc3ODMxMGE1MUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23EF6C00" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </div>
+		<div id="page3" style="display: none;">This is Page 3</div>
+		<div id="page4" style="display: none;">This is Page 4</div>
+	</div>
+
+	<script>
+		function showPage(pageIndex) {
+			// Hide all pages
+			var pages = document.querySelectorAll(".container div");
+			for (var i = 0; i < pages.length; i++) {
+				pages[i].style.display = "none";
+			}
+
+			// Show the selected page
+			var selectedPage = document.querySelector("#page" + (pageIndex + 1));
+			selectedPage.style.display = "block";
+
+			// Update active tab
+			var tabs = document.querySelectorAll("ul li a");
+			for (var i = 0; i < tabs.length; i++) {
+				tabs[i].classList.remove("active");
+			}
+			tabs[pageIndex].classList.add("active");
+		}
+	</script>
+</body>
+</html>
