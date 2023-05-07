@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+		}
+
+		li {
+			float: left;
+		}
+
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		li a:hover {
+			background-color: #111;
+		}
+
+		.active {
+			background-color: #4CAF50;
+		}
+
+		.container {
+			margin-top: 30px;
+			padding: 20px;
+			font-size: 30px;
+			min-height: 500px;
+		}
+	</style>
+</head>
+<body>
+	<ul>
+		<li><a class="active" href="#" onclick="showPage(0)">Page 1</a></li>
+		<li><a href="#" onclick="showPage(1)">Calendar</a></li>
+		<li><a href="#" onclick="showPage(2)">Page 3</a></li>
+		<li><a href="#" onclick="showPage(3)">Page 4</a></li>
+	</ul>
+	<div class="container">
+		<div id="page1" style="display: block;">This is Page 1</div>
+		<div id="page2" style="display: none;">
+      <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&showTitle=0&showPrint=0&showTabs=0&src=ZGZiOTZiOTY1Yjc1ZmM4NTk2MTNkZDY3N2EwNTM4YzMxYzg5NGIyNzZiZDFmMDBkOTY5NDFlZDc3ODMxMGE1MUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23EF6C00" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </div>
+		<div id="page3" style="display: none;">
+			<section>
+  <div class="middle">
+      <div class="innContent_col">
+      <div class="innContent_inn">
+        <div class="container">
+          <div class="row">
+          <div class="col-sm-12">
+            <div class="colSm_inn clearfix">
+              
+                <div class="nav_badcame">
+                  <!-- Breadcrumb NavXT 7.1.0 -->
+<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Club Z! Tutoring." href="https://clubztutoring.com" class="home"><span property="name">Home</span></a><meta property="position" content="1"></span> / <span property="itemListElement" typeof="ListItem"><span property="name">Become a Tutor</span><meta property="position" content="2"></span>                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="innContent_mainCol">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="contentInner">
+                <div class="tab-content">
+                 <script type="text/javascript">var rt = 'employment'</script>
+<a id="drf"></a>
+<p></p>
+<h3><strong>Become a Club Z! Tutor</strong></h3>
+<p>Club Z! seeks qualified applicants for tutoring jobs nationwide. Enjoy the flexibility and compensation of a tutor job in your field. We encourage all educational enthusiasts to be a tutor and make a difference in someone’s life.
+</p><div class="container">
+    <!-- ERRORS CONTAINER -->
+    <div id="request_errors"></div>
+    <!-- PAGE NUMBER CONTAINER -->
+    <div id="request_form_page" style="margin: 14px 0;"><table id="drfpagelist" class=""><tbody><tr><td style="width: 25%;"><span class="dRFSecSel opt1 dRFSelected" id="dRFSection-0" style="padding: 5px; margin: 0px 2px; cursor: pointer;"><img class="opt opt-1-img img-responsive" width="100%" src="//dashboard.clubztutoring.com//assets/icons/emp_app/sect-1.png" alt=""></span></td><td style="width: 25%;"><span class="dRFSecSel opt2" id="dRFSection-1" style="padding: 5px; margin: 0px 2px; cursor: pointer;"><img class="opt opt-2-img img-responsive" width="100%" src="//dashboard.clubztutoring.com//assets/icons/emp_app/sect-2.png" alt=""></span></td><td style="width: 25%;"><span class="dRFSecSel opt3" id="dRFSection-2" style="padding: 5px; margin: 0px 2px; cursor: pointer;"><img class="opt opt-3-img img-responsive" width="100%" src="//dashboard.clubztutoring.com//assets/icons/emp_app/sect-3.png" alt=""></span></td><td style="width: 25%;"><span class="dRFSecSel opt4" id="dRFSection-3" style="padding: 5px; margin: 0px 2px; cursor: pointer;"><img class="opt opt-4-img img-responsive" width="100%" src="//dashboard.clubztutoring.com//assets/icons/emp_app/sect-4.png" alt=""></span></td></tr></tbody></table></div>
+    <p>Fields marked with <span class="required-icon">*</span> are required.</p>
+    <!-- FORM -->
+	<form action="https://dashboard.clubztutoring.com/request/employment?success_pg=/become-a-tutor/thank-you" method="POST" id="request_form" enctype="multipart/form-data" role="form" class="form-inline" hidden="hidden" style="display: block;"><div class="formDataSection rFLocInfo" style="width: inherit; height: inherit; overflow: visible;">
+<fieldset>
+<legend>Location Information</legend>
+
+<div class="form-group">
+<label for="counrty" class="sr-only">Country <strong style="color: red;">*</strong></label>
+<select name="counrty" class="form-control input-sm input-sm">
+<option value="US">United States</option>
+<option value="CA">Canada</option>
+<option value="TK">Turkey</option>
+</select>
+<div class="required-icon"><div class="text">*</div></div>
+</div>
+<div class="form-group">
+<label for="zip_code" class="sr-only">Postal/Zip <strong style="color: red;">*</strong></label>
+<input type="text" name="zip_code" value="" id="zip_code" placeholder="Postal/Zip" size="8" maxlength="10" class="form-control input-sm">
+<div class="required-icon"><div class="text">*</div></div>
+</div>
+<div class="form-group">
+
+
+<input type="hidden" name="franchise_code" value="">
+
+
+
+<input type="hidden" name="type" value="">
+
+</div>
+</fieldset>
+<fieldset>
+<legend>Contact Information</legend>
+
+<div class="form-group">
+<label for="fname" class="sr-only">First Name <strong style="color: red;">*</strong></label>
+<input type="text" name="fname" value="" id="fname" placeholder="First Name" size="35" maxlength="50" class="form-control input-sm">
+<div class="required-icon"><div class="text">*</div></div>
+</div>
+<div class="form-group">
+<label for="lname" class="sr-only">Last Name <strong style="color: red;">*</strong></label>
+<input type="text" name="lname" value="" id="lname" placeholder="Last Name" size="35" maxlength="50" class="form-control input-sm">
+<div class="required-icon"><div class="text">*</div></div>
+</div>
+<div class="clearboth"><br></div>
+<div class="form-group">
+<label for="phone[home]" class="sr-only">Phone # <strong style="color: red;">*</strong></label>
+<input type="text" name="phone[home]" value="" id="phone[home]" placeholder="Phone #" size="14" maxlength="25" class="form-control input-sm">
+<div class="required-icon"><div class="text">*</div></div>
+</div>
+<div class="form-group">
+<label for="email" class="sr-only">Email <strong style="color: red;">*</strong></label>
+<input type="text" name="email" value="" id="email" placeholder="Email" size="35" maxlength="75" class="form-control input-sm">
+<div class="required-icon"><div class="text">*</div></div>
+</div>
+<div class="clearboth"><br></div>
+<div class="form-group">
+<label for="street1" class="sr-only">Address <strong style="color: red;">*</strong></label>
+<input type="text" name="street1" value="" id="street1" placeholder="Address" size="30" maxlength="75" class="form-control input-sm">
+<div class="required-icon"><div class="text">*</div></div>
+</div>
+<div class="form-group">
+<label for="street2" class="sr-only">Apt #</label>
+<input type="text" name="street2" value="" id="street2" placeholder="Apt #" size="15" maxlength="35" class="form-control input-sm">
+</div>
+<div class="form-group">
+<label for="city" class="sr-only">City <strong style="color: red;">*</strong></label>
+<input type="text" name="city" value="" id="city" placeholder="City" size="30" maxlength="50" class="form-control input-sm">
+<div class="required-icon"><div class="text">*</div></div>
+</div>
+<div class="form-group">
+<label for="state" class="sr-only">State <strong style="color: red;">*</strong></label>
+<input type="text" name="state" value="" id="state" placeholder="State" size="4" maxlength="2" class="form-control input-sm">
+<div class="required-icon"><div class="text">*</div></div>
+</div>
+<div class="clearboth"><br></div>
+<div class="form-group">
+<label for="emp_referred_by" class="sr-only">How did you hear about us?</label>
+<select name="emp_referred_by" id="heard" class="form-control input-sm">
+<option value="" selected="selected">How did you hear about us?</option>
+<option value="Club Z! Web Site">Club Z! Web Site</option>
+<option value="Craig’s List">Craig’s List</option>
+<option value="Facebook">Facebook</option>
+<option value="Glassdoor">Glassdoor</option>
+<option value="Google Jobs">Google Jobs</option>
+<option value="Indeed">Indeed</option>
+<option value="Kijiji">Kijiji</option>
+<option value="LinkedIn">LinkedIn</option>
+<option value="Newspaper">Newspaper</option>
+<option value="Other Online Job Board">Other Online Job Board</option>
+<option value="Word of Mouth">Word of Mouth</option>
+<option value="Zip Recruiter">Zip Recruiter</option>
+<option value="other">other</option>
+</select>
+</div>
+</fieldset>
+<div style="margin:14px 0 0 5px;"><label></label><button name="back" type="button" class="btn btn-default back actionBtn" disabled="disabled">Back</button> <button name="continue" type="button" class="btn btn-default continue actionBtn">Continue</button></div>
+</div>
+<div class="formDataSection rFEduInfo" style="width: 1px; height: 1px; overflow: hidden;">
+<fieldset>
+<legend>Undergraduate Degree</legend>
+
+<div class="form-group">
+<label for="ugrad_col_name" class="sr-only">College</label>
+<input type="text" name="ugrad_col_name" value="" id="ugrad_col_name" placeholder="College" size="30" maxlength="50" class="form-control input-sm">
+</div>
+<div class="form-group">
+<label for="ugrad_major" class="sr-only">Major</label>
+<input type="text" name="ugrad_major" value="" id="ugrad_major" placeholder="Major" size="30" maxlength="50" class="form-control input-sm">
+</div>
+<div class="form-group">
+<label for="ugrad_degree_type" class="sr-only">Degree Type</label>
+<select name="ugrad_degree_type" id="ugrad_degree_type" class="form-control input-sm">
+<option value="0">Degree Type</option>
+<option value="Current Undergrad">Current Undergrad</option>
+<option value="Bachelors">Bachelor's</option>
+<option value="Associates">Associate's</option>
+</select>
+</div>
+<div class="form-group">
+<label for="ugrad_yr" class="sr-only">Year</label>
+<input type="text" name="ugrad_yr" value="" id="ugrad_yr" placeholder="Year" size="4" maxlength="4" class="form-control input-sm">
+</div>
+<hr>
+<fieldset>
+<legend>Graduate Degree</legend>
+
+<div class="form-group">
+<label for="grad_col_name" class="sr-only">College</label>
+<input type="text" name="grad_col_name" value="" id="grad_col_name" placeholder="College" size="30" maxlength="50" class="form-control input-sm">
+</div>
+<div class="form-group">
+<label for="grad_major" class="sr-only">Major</label>
+<input type="text" name="grad_major" value="" id="grad_major" placeholder="Major" size="30" maxlength="50" class="form-control input-sm">
+</div>
+<div class="form-group">
+<label for="grad_degree_type" class="sr-only">Degree Type</label>
+<select name="grad_degree_type" id="grad_degree_type" class="form-control input-sm">
+<option value="0">Degree Type</option>
+<option value="Current Grad">Current Grad</option>
+<option value="Masters">Master's</option>
+<option value="PhD">PhD</option>
+</select>
+</div>
+<div class="form-group">
+<label for="grad_yr" class="sr-only">Year</label>
+<input type="text" name="grad_yr" value="" id="grad_yr" placeholder="Year" size="4" maxlength="4" class="form-control input-sm">
+</div>
+<hr>
+<div class="checkbox">
+<label for="holds_certs">Teaching Certificate? <strong style="color: red;">*</strong></label>
+<input type="radio" name="holds_certs" value="no" checked="checked" id="holds_certs" onchange"if(this.options[this.selectedindex].value="='yes'){$('#certs_list').show();}&quot;)"> No
+<input type="radio" name="holds_certs" value="yes" id="holds_certs" onchange"if(this.options[this.selectedindex].value="='yes'){$('#certs_list').show();}&quot;)"> Yes
+</div>
+<div class="clearfix"></div>
+<div id="certs_list">
+<label for="emp_cert_list" class="sr-only">If yes, in what subject(s)</label>
+<textarea name="emp_cert_list" cols="35" rows="7" type="textarea" id="emp_cert_list" placeholder="If yes, in what subject(s)" class="form-control" style="width: 100%;"></textarea>
+</div>
+</fieldset>
+<div style="margin:14px 0 0 5px;"><label></label><button name="back" type="button" class="btn btn-default back actionBtn">Back</button> <button name="continue" type="button" class="btn btn-default continue actionBtn">Continue</button></div>
+</fieldset></div>
+<div class="formDataSection rFAvailability" style="width: 1px; height: 1px; overflow: hidden;">
+<fieldset>
+<legend>Availability Information</legend>
+
+<span class="help-block" style="margin-bottom: 7px;">Days/Hours Available. Select up to three start/end intervals, during each day of the week, for which you are available. For example, you can select both Monday Start 9am -&gt; End 10am, and Monday Start 3pm -&gt; End 5pm, if you are free for both time periods. </span>
+<ul id="availability" style="margin: 0 0 14px; padding: 0; list-style-type: none;">
+<li id="ts0"><!-- week day --> 
+<select name="availability[ts0][0]" id="day_ts0" class="autowidth sched-day">
+<option value="0" selected="selected">Sunday</option>
+<option value="1">Monday</option>
+<option value="2">Tuesday</option>
+<option value="3">Wednesday</option>
+<option value="4">Thursday</option>
+<option value="5">Friday</option>
+<option value="6">Saturday</option>
+</select>
+ : <!-- start hour --> 
+<select name="availability[ts0][1]" id="hr1_ts0" class="autowidth sched-time sched-time-start">
+<option value="0000">12:00 am</option>
+<option value="0015">12:15 am</option>
+<option value="0030">12:30 am</option>
+<option value="0045">12:45 am</option>
+<option value="0100">1:00 am</option>
+<option value="0115">1:15 am</option>
+<option value="0130">1:30 am</option>
+<option value="0145">1:45 am</option>
+<option value="0200">2:00 am</option>
+<option value="0215">2:15 am</option>
+<option value="0230">2:30 am</option>
+<option value="0245">2:45 am</option>
+<option value="0300">3:00 am</option>
+<option value="0315">3:15 am</option>
+<option value="0330">3:30 am</option>
+<option value="0345">3:45 am</option>
+<option value="0400">4:00 am</option>
+<option value="0415">4:15 am</option>
+<option value="0430">4:30 am</option>
+<option value="0445">4:45 am</option>
+<option value="0500">5:00 am</option>
+<option value="0515">5:15 am</option>
+<option value="0530">5:30 am</option>
+<option value="0545">5:45 am</option>
+<option value="0600">6:00 am</option>
+<option value="0615">6:15 am</option>
+<option value="0630">6:30 am</option>
+<option value="0645">6:45 am</option>
+<option value="0700">7:00 am</option>
+<option value="0715">7:15 am</option>
+<option value="0730">7:30 am</option>
+<option value="0745">7:45 am</option>
+<option value="0800">8:00 am</option>
+<option value="0815">8:15 am</option>
+<option value="0830">8:30 am</option>
+<option value="0845">8:45 am</option>
+<option value="0900">9:00 am</option>
+<option value="0915">9:15 am</option>
+<option value="0930">9:30 am</option>
+<option value="0945">9:45 am</option>
+<option value="1000">10:00 am</option>
+<option value="1015">10:15 am</option>
+<option value="1030">10:30 am</option>
+<option value="1045">10:45 am</option>
+<option value="1100">11:00 am</option>
+<option value="1115">11:15 am</option>
+<option value="1130">11:30 am</option>
+<option value="1145">11:45 am</option>
+<option value="1200">12:00 pm</option>
+<option value="1215">12:15 pm</option>
+<option value="1230">12:30 pm</option>
+<option value="1245">12:45 pm</option>
+<option value="1300">1:00 pm</option>
+<option value="1315">1:15 pm</option>
+<option value="1330">1:30 pm</option>
+<option value="1345">1:45 pm</option>
+<option value="1400">2:00 pm</option>
+<option value="1415">2:15 pm</option>
+<option value="1430">2:30 pm</option>
+<option value="1445">2:45 pm</option>
+<option value="1500">3:00 pm</option>
+<option value="1515">3:15 pm</option>
+<option value="1530">3:30 pm</option>
+<option value="1545">3:45 pm</option>
+<option value="1600">4:00 pm</option>
+<option value="1615">4:15 pm</option>
+<option value="1630">4:30 pm</option>
+<option value="1645">4:45 pm</option>
+<option value="1700">5:00 pm</option>
+<option value="1715">5:15 pm</option>
+<option value="1730">5:30 pm</option>
+<option value="1745">5:45 pm</option>
+<option value="1800">6:00 pm</option>
+<option value="1815">6:15 pm</option>
+<option value="1830">6:30 pm</option>
+<option value="1845">6:45 pm</option>
+<option value="1900" selected="selected">7:00 pm</option>
+<option value="1915">7:15 pm</option>
+<option value="1930">7:30 pm</option>
+<option value="1945">7:45 pm</option>
+<option value="2000">8:00 pm</option>
+<option value="2015">8:15 pm</option>
+<option value="2030">8:30 pm</option>
+<option value="2045">8:45 pm</option>
+<option value="2100">9:00 pm</option>
+<option value="2115">9:15 pm</option>
+<option value="2130">9:30 pm</option>
+<option value="2145">9:45 pm</option>
+<option value="2200">10:00 pm</option>
+<option value="2215">10:15 pm</option>
+<option value="2230">10:30 pm</option>
+<option value="2245">10:45 pm</option>
+<option value="2300">11:00 pm</option>
+<option value="2315">11:15 pm</option>
+<option value="2330">11:30 pm</option>
+<option value="2345">11:45 pm</option>
+</select>&nbsp;-&nbsp;
+<!-- end hour --> 
+<select name="availability[ts0][2]" id="hr2_ts0" class="autowidth sched-time sched-time-end">
+<option value="0000">12:00 am</option>
+<option value="0015">12:15 am</option>
+<option value="0030">12:30 am</option>
+<option value="0045">12:45 am</option>
+<option value="0100">1:00 am</option>
+<option value="0115">1:15 am</option>
+<option value="0130">1:30 am</option>
+<option value="0145">1:45 am</option>
+<option value="0200">2:00 am</option>
+<option value="0215">2:15 am</option>
+<option value="0230">2:30 am</option>
+<option value="0245">2:45 am</option>
+<option value="0300">3:00 am</option>
+<option value="0315">3:15 am</option>
+<option value="0330">3:30 am</option>
+<option value="0345">3:45 am</option>
+<option value="0400">4:00 am</option>
+<option value="0415">4:15 am</option>
+<option value="0430">4:30 am</option>
+<option value="0445">4:45 am</option>
+<option value="0500">5:00 am</option>
+<option value="0515">5:15 am</option>
+<option value="0530">5:30 am</option>
+<option value="0545">5:45 am</option>
+<option value="0600">6:00 am</option>
+<option value="0615">6:15 am</option>
+<option value="0630">6:30 am</option>
+<option value="0645">6:45 am</option>
+<option value="0700">7:00 am</option>
+<option value="0715">7:15 am</option>
+<option value="0730">7:30 am</option>
+<option value="0745">7:45 am</option>
+<option value="0800">8:00 am</option>
+<option value="0815">8:15 am</option>
+<option value="0830">8:30 am</option>
+<option value="0845">8:45 am</option>
+<option value="0900">9:00 am</option>
+<option value="0915">9:15 am</option>
+<option value="0930">9:30 am</option>
+<option value="0945">9:45 am</option>
+<option value="1000">10:00 am</option>
+<option value="1015">10:15 am</option>
+<option value="1030">10:30 am</option>
+<option value="1045">10:45 am</option>
+<option value="1100">11:00 am</option>
+<option value="1115">11:15 am</option>
+<option value="1130">11:30 am</option>
+<option value="1145">11:45 am</option>
+<option value="1200">12:00 pm</option>
+<option value="1215">12:15 pm</option>
+<option value="1230">12:30 pm</option>
+<option value="1245">12:45 pm</option>
+<option value="1300">1:00 pm</option>
+<option value="1315">1:15 pm</option>
+<option value="1330">1:30 pm</option>
+<option value="1345">1:45 pm</option>
+<option value="1400">2:00 pm</option>
+<option value="1415">2:15 pm</option>
+<option value="1430">2:30 pm</option>
+<option value="1445">2:45 pm</option>
+<option value="1500">3:00 pm</option>
+<option value="1515">3:15 pm</option>
+<option value="1530">3:30 pm</option>
+<option value="1545">3:45 pm</option>
+<option value="1600">4:00 pm</option>
+<option value="1615">4:15 pm</option>
+<option value="1630">4:30 pm</option>
+<option value="1645">4:45 pm</option>
+<option value="1700">5:00 pm</option>
+<option value="1715">5:15 pm</option>
+<option value="1730">5:30 pm</option>
+<option value="1745">5:45 pm</option>
+<option value="1800">6:00 pm</option>
+<option value="1815">6:15 pm</option>
+<option value="1830">6:30 pm</option>
+<option value="1845">6:45 pm</option>
+<option value="1900" selected="selected">7:00 pm</option>
+<option value="1915">7:15 pm</option>
+<option value="1930">7:30 pm</option>
+<option value="1945">7:45 pm</option>
+<option value="2000">8:00 pm</option>
+<option value="2015">8:15 pm</option>
+<option value="2030">8:30 pm</option>
+<option value="2045">8:45 pm</option>
+<option value="2100">9:00 pm</option>
+<option value="2115">9:15 pm</option>
+<option value="2130">9:30 pm</option>
+<option value="2145">9:45 pm</option>
+<option value="2200">10:00 pm</option>
+<option value="2215">10:15 pm</option>
+<option value="2230">10:30 pm</option>
+<option value="2245">10:45 pm</option>
+<option value="2300">11:00 pm</option>
+<option value="2315">11:15 pm</option>
+<option value="2330">11:30 pm</option>
+<option value="2345">11:45 pm</option>
+</select>&nbsp;&nbsp;
+
+<a href="javascript:void(0);" class="icon_delete" onmouseup="remove_availability('ts0')"></a></li></ul>
+<p><button type="button" id="add_availability" class="btn btn-default">Add Availability</button></p>
+<div>How many hours are you available per week?:</div> 
+<div class="form-group">
+<label for="hrs_per_wk" class="sr-only">hours <strong style="color: red;">*</strong></label>
+<input type="text" name="hrs_per_wk" value="" id="hrs_per_wk" placeholder="hours" size="4" maxlength="2" class="form-control input-sm">
+<div class="required-icon"><div class="text">*</div></div>
+</div>
+</fieldset>
+<div style="margin:14px 0 0 5px;"><label></label><button name="back" type="button" class="btn btn-default back actionBtn">Back</button> <button name="continue" type="button" class="btn btn-default continue actionBtn">Continue</button></div>
+</div>
+<div class="formDataSection rFSubjects" style="width: 1px; height: 1px; overflow: hidden;">
+
+
+<input type="hidden" name="services[]" value="">
+
+<fieldset>
+<legend>Subjects</legend>
+
+<div class="row" style="margin: 0; padding: 0;">
+
+    <!-- CATEGORIES -->
+	<div class="col-sm-4 category-options" style="background-color: #FFF; margin: 0; padding: 0;">
+		<div style="background-color: #FFF;"><h2 style="margin-top: 0; padding-bottom: 14px;">Categories</h2></div>
+		<ul class="list-group hidden-xs" style="margin: 0; padding: 0;">
+		    		    <a href="javascript:void(0);" class="list-group-item category-option  active" id="show-c_Business">
+    		    <span class="badge">0</span>
+    		    Business		    </a>
+					    <a href="javascript:void(0);" class="list-group-item category-option " id="show-c_English_Language_Arts">
+    		    <span class="badge">0</span>
+    		    English Language Arts		    </a>
+					    <a href="javascript:void(0);" class="list-group-item category-option " id="show-c_Foreign_Languages">
+    		    <span class="badge">0</span>
+    		    Foreign Languages		    </a>
+					    <a href="javascript:void(0);" class="list-group-item category-option " id="show-c_Graduate_Test_Prep">
+    		    <span class="badge">0</span>
+    		    Graduate Test Prep		    </a>
+					    <a href="javascript:void(0);" class="list-group-item category-option " id="show-c_Math">
+    		    <span class="badge">0</span>
+    		    Math		    </a>
+					    <a href="javascript:void(0);" class="list-group-item category-option " id="show-c_Other">
+    		    <span class="badge">0</span>
+    		    Other		    </a>
+					    <a href="javascript:void(0);" class="list-group-item category-option " id="show-c_Pre_K">
+    		    <span class="badge">0</span>
+    		    Pre-K		    </a>
+					    <a href="javascript:void(0);" class="list-group-item category-option " id="show-c_Science">
+    		    <span class="badge">0</span>
+    		    Science		    </a>
+					    <a href="javascript:void(0);" class="list-group-item category-option " id="show-c_Social_Science">
+    		    <span class="badge">0</span>
+    		    Social Science		    </a>
+					    <a href="javascript:void(0);" class="list-group-item category-option " id="show-c_Social_Studies">
+    		    <span class="badge">0</span>
+    		    Social Studies		    </a>
+					    <a href="javascript:void(0);" class="list-group-item category-option " id="show-c_Technology_Computer_Science">
+    		    <span class="badge">0</span>
+    		    Technology &amp; Computer Science		    </a>
+					    <a href="javascript:void(0);" class="list-group-item category-option " id="show-c_Test_Prep">
+    		    <span class="badge">0</span>
+    		    Test Prep		    </a>
+			 
+		</ul>
+		<div class="hidden-sm hidden-md hidden-lg">
+		<p class="bg-info" style="padding: 5px;">
+		  Please use the drop-down box below to select categories and select the appropriate subjects associated with each category.
+		</p>
+		<select name="category" class="form-control category-select">
+<option value="show-c_Business">Business</option>
+<option value="show-c_English_Language_Arts">English Language Arts</option>
+<option value="show-c_Foreign_Languages">Foreign Languages</option>
+<option value="show-c_Graduate_Test_Prep">Graduate Test Prep</option>
+<option value="show-c_Math">Math</option>
+<option value="show-c_Other">Other</option>
+<option value="show-c_Pre_K">Pre-K</option>
+<option value="show-c_Science">Science</option>
+<option value="show-c_Social_Science">Social Science</option>
+<option value="show-c_Social_Studies">Social Studies</option>
+<option value="show-c_Technology_Computer_Science">Technology &amp; Computer Science</option>
+<option value="show-c_Test_Prep">Test Prep</option>
+</select><hr>
+		</div>
+	</div>
+	
+	<!-- SERVICES -->
+	<div class="col-sm-8 category-services" style="background-color: rgb(239, 239, 239); margin: 0px; padding: 0px; min-height: 0px;"> 
+    	<div style="background-color: #FFF;"><h2 style="margin-top: 0; padding-bottom: 14px">Subjects</h2></div>
+    	    	    	<div class="service-category" id="c_Business" style="">
+    	   <div class="col-sm-6">
+    	       	       <input type="checkbox" name="services[77]" id="s77" value="77"> <label for="s77" class="checkbox category-service">Accounting</label>
+    	       	       <input type="checkbox" name="services[78]" id="s78" value="78"> <label for="s78" class="checkbox category-service">Economics</label>
+    	       	       <input type="checkbox" name="services[76]" id="s76" value="76"> <label for="s76" class="checkbox category-service">Finance</label>
+    	       	       <input type="checkbox" name="services[131]" id="s131" value="131"> <label for="s131" class="checkbox category-service">Macroeconomics</label>
+    	       	   </div>
+    	   <div class="col-sm-6">
+    	       	       <input type="checkbox" name="services[132]" id="s132" value="132"> <label for="s132" class="checkbox category-service">Microeconomics</label>
+    	       	       <input type="checkbox" name="services[133]" id="s133" value="133"> <label for="s133" class="checkbox category-service">Other</label>
+    	       	   </div>
+    	</div>
+    	    	    	<div class="service-category" id="c_English_Language_Arts" style=" display: none;">
+    	   <div class="col-sm-6">
+    	       	       <input type="checkbox" name="services[100]" id="s100" value="100"> <label for="s100" class="checkbox category-service">AP English Language &amp; Composition</label>
+    	       	       <input type="checkbox" name="services[101]" id="s101" value="101"> <label for="s101" class="checkbox category-service">AP English Literature &amp; Composition</label>
+    	       	       <input type="checkbox" name="services[52]" id="s52" value="52"> <label for="s52" class="checkbox category-service">Critical Reading</label>
+    	       	       <input type="checkbox" name="services[102]" id="s102" value="102"> <label for="s102" class="checkbox category-service">Cursive</label>
+    	       	       <input type="checkbox" name="services[53]" id="s53" value="53"> <label for="s53" class="checkbox category-service">English</label>
+    	       	       <input type="checkbox" name="services[103]" id="s103" value="103"> <label for="s103" class="checkbox category-service">English</label>
+    	       	       <input type="checkbox" name="services[104]" id="s104" value="104"> <label for="s104" class="checkbox category-service">Grammar</label>
+    	       	       <input type="checkbox" name="services[38]" id="s38" value="38"> <label for="s38" class="checkbox category-service">Independent Reading</label>
+    	       	       <input type="checkbox" name="services[40]" id="s40" value="40"> <label for="s40" class="checkbox category-service">Literature</label>
+    	       	       <input type="checkbox" name="services[107]" id="s107" value="107"> <label for="s107" class="checkbox category-service">Other</label>
+    	       	       <input type="checkbox" name="services[105]" id="s105" value="105"> <label for="s105" class="checkbox category-service">Penmanship</label>
+    	       	   </div>
+    	   <div class="col-sm-6">
+    	       	       <input type="checkbox" name="services[39]" id="s39" value="39"> <label for="s39" class="checkbox category-service">Phonics</label>
+    	       	       <input type="checkbox" name="services[54]" id="s54" value="54"> <label for="s54" class="checkbox category-service">Reading</label>
+    	       	       <input type="checkbox" name="services[33]" id="s33" value="33"> <label for="s33" class="checkbox category-service">Reading Comprehension</label>
+    	       	       <input type="checkbox" name="services[37]" id="s37" value="37"> <label for="s37" class="checkbox category-service">Reading Fluency</label>
+    	       	       <input type="checkbox" name="services[106]" id="s106" value="106"> <label for="s106" class="checkbox category-service">Semantics &amp; Logic</label>
+    	       	       <input type="checkbox" name="services[42]" id="s42" value="42"> <label for="s42" class="checkbox category-service">Speaking and Listening</label>
+    	       	       <input type="checkbox" name="services[41]" id="s41" value="41"> <label for="s41" class="checkbox category-service">Spelling</label>
+    	       	       <input type="checkbox" name="services[43]" id="s43" value="43"> <label for="s43" class="checkbox category-service">Vocabulary</label>
+    	       	       <input type="checkbox" name="services[34]" id="s34" value="34"> <label for="s34" class="checkbox category-service">Writing</label>
+    	       	   </div>
+    	</div>
+    	    	    	<div class="service-category" id="c_Foreign_Languages" style=" display: none;">
+    	   <div class="col-sm-6">
+    	       	       <input type="checkbox" name="services[130]" id="s130" value="130"> <label for="s130" class="checkbox category-service">Arabic</label>
+    	       	       <input type="checkbox" name="services[139]" id="s139" value="139"> <label for="s139" class="checkbox category-service">Cantonese</label>
+    	       	       <input type="checkbox" name="services[51]" id="s51" value="51"> <label for="s51" class="checkbox category-service">Chinese</label>
+    	       	       <input type="checkbox" name="services[99]" id="s99" value="99"> <label for="s99" class="checkbox category-service">ESOL</label>
+    	       	       <input type="checkbox" name="services[97]" id="s97" value="97"> <label for="s97" class="checkbox category-service">English</label>
+    	       	       <input type="checkbox" name="services[27]" id="s27" value="27"> <label for="s27" class="checkbox category-service">French</label>
+    	       	       <input type="checkbox" name="services[28]" id="s28" value="28"> <label for="s28" class="checkbox category-service">German</label>
+    	       	       <input type="checkbox" name="services[140]" id="s140" value="140"> <label for="s140" class="checkbox category-service">Hebrew</label>
+    	       	       <input type="checkbox" name="services[98]" id="s98" value="98"> <label for="s98" class="checkbox category-service">Italian</label>
+    	       	   </div>
+    	   <div class="col-sm-6">
+    	       	       <input type="checkbox" name="services[82]" id="s82" value="82"> <label for="s82" class="checkbox category-service">Italian</label>
+    	       	       <input type="checkbox" name="services[50]" id="s50" value="50"> <label for="s50" class="checkbox category-service">Japanese</label>
+    	       	       <input type="checkbox" name="services[141]" id="s141" value="141"> <label for="s141" class="checkbox category-service">Korean</label>
+    	       	       <input type="checkbox" name="services[79]" id="s79" value="79"> <label for="s79" class="checkbox category-service">Latin</label>
+    	       	       <input type="checkbox" name="services[143]" id="s143" value="143"> <label for="s143" class="checkbox category-service">Other</label>
+    	       	       <input type="checkbox" name="services[142]" id="s142" value="142"> <label for="s142" class="checkbox category-service">Russian</label>
+    	       	       <input type="checkbox" name="services[29]" id="s29" value="29"> <label for="s29" class="checkbox category-service">Spanish</label>
+    	       	   </div>
+    	</div>
+    	    	    	<div class="service-category" id="c_Graduate_Test_Prep" style=" display: none;">
+    	   <div class="col-sm-6">
+    	       	       <input type="checkbox" name="services[154]" id="s154" value="154"> <label for="s154" class="checkbox category-service">GMAT</label>
+    	       	       <input type="checkbox" name="services[155]" id="s155" value="155"> <label for="s155" class="checkbox category-service">GRE</label>
+    	       	       <input type="checkbox" name="services[156]" id="s156" value="156"> <label for="s156" class="checkbox category-service">LSAT</label>
+    	       	   </div>
+    	   <div class="col-sm-6">
+    	       	       <input type="checkbox" name="services[157]" id="s157" value="157"> <label for="s157" class="checkbox category-service">MCAT</label>
+    	       	   </div>
+    	</div>
+    	    	    	<div class="service-category" id="c_Math" style=" display: none;">
+    	   <div class="col-sm-6">
+    	       	       <input type="checkbox" name="services[85]" id="s85" value="85"> <label for="s85" class="checkbox category-service">AP Calculus</label>
+    	       	       <input type="checkbox" name="services[86]" id="s86" value="86"> <label for="s86" class="checkbox category-service">AP Macroeconomics</label>
+    	       	       <input type="checkbox" name="services[87]" id="s87" value="87"> <label for="s87" class="checkbox category-service">AP Microeconomics</label>
+    	       	       <input type="checkbox" name="services[88]" id="s88" value="88"> <label for="s88" class="checkbox category-service">AP Statistics</label>
+    	       	       <input type="checkbox" name="services[1]" id="s1" value="1"> <label for="s1" class="checkbox category-service">Addition</label>
+    	       	       <input type="checkbox" name="services[14]" id="s14" value="14"> <label for="s14" class="checkbox category-service">Algebra</label>
+    	       	       <input type="checkbox" name="services[15]" id="s15" value="15"> <label for="s15" class="checkbox category-service">Algebra II</label>
+    	       	       <input type="checkbox" name="services[68]" id="s68" value="68"> <label for="s68" class="checkbox category-service">Calc I</label>
+    	       	       <input type="checkbox" name="services[69]" id="s69" value="69"> <label for="s69" class="checkbox category-service">Calc II</label>
+    	       	       <input type="checkbox" name="services[70]" id="s70" value="70"> <label for="s70" class="checkbox category-service">Calc III</label>
+    	       	       <input type="checkbox" name="services[12]" id="s12" value="12"> <label for="s12" class="checkbox category-service">Calculus</label>
+    	       	       <input type="checkbox" name="services[26]" id="s26" value="26"> <label for="s26" class="checkbox category-service">Decimals</label>
+    	       	       <input type="checkbox" name="services[3]" id="s3" value="3"> <label for="s3" class="checkbox category-service">Division</label>
+    	       	       <input type="checkbox" name="services[144]" id="s144" value="144"> <label for="s144" class="checkbox category-service">Elementary Math</label>
+    	       	       <input type="checkbox" name="services[67]" id="s67" value="67"> <label for="s67" class="checkbox category-service">Finite</label>
+    	       	       <input type="checkbox" name="services[4]" id="s4" value="4"> <label for="s4" class="checkbox category-service">Fractions</label>
+    	       	   </div>
+    	   <div class="col-sm-6">
+    	       	       <input type="checkbox" name="services[160]" id="s160" value="160"> <label for="s160" class="checkbox category-service">Functions</label>
+    	       	       <input type="checkbox" name="services[161]" id="s161" value="161"> <label for="s161" class="checkbox category-service">Functions - Advanced</label>
+    	       	       <input type="checkbox" name="services[17]" id="s17" value="17"> <label for="s17" class="checkbox category-service">General Math</label>
+    	       	       <input type="checkbox" name="services[8]" id="s8" value="8"> <label for="s8" class="checkbox category-service">Geometry</label>
+    	       	       <input type="checkbox" name="services[145]" id="s145" value="145"> <label for="s145" class="checkbox category-service">Middle School Math</label>
+    	       	       <input type="checkbox" name="services[5]" id="s5" value="5"> <label for="s5" class="checkbox category-service">Multiplication</label>
+    	       	       <input type="checkbox" name="services[162]" id="s162" value="162"> <label for="s162" class="checkbox category-service">Other</label>
+    	       	       <input type="checkbox" name="services[6]" id="s6" value="6"> <label for="s6" class="checkbox category-service">Percentages</label>
+    	       	       <input type="checkbox" name="services[13]" id="s13" value="13"> <label for="s13" class="checkbox category-service">Pre-Algebra</label>
+    	       	       <input type="checkbox" name="services[11]" id="s11" value="11"> <label for="s11" class="checkbox category-service">Pre-Calculus</label>
+    	       	       <input type="checkbox" name="services[9]" id="s9" value="9"> <label for="s9" class="checkbox category-service">Probability</label>
+    	       	       <input type="checkbox" name="services[7]" id="s7" value="7"> <label for="s7" class="checkbox category-service">Statistics</label>
+    	       	       <input type="checkbox" name="services[2]" id="s2" value="2"> <label for="s2" class="checkbox category-service">Subtraction</label>
+    	       	       <input type="checkbox" name="services[16]" id="s16" value="16"> <label for="s16" class="checkbox category-service">Trigonometry</label>
+    	       	   </div>
+    	</div>
+    	    	    	<div class="service-category" id="c_Other" style=" display: none;">
+    	   <div class="col-sm-6">
+    	       	       <input type="checkbox" name="services[45]" id="s45" value="45"> <label for="s45" class="checkbox category-service">AP/IB Course</label>
+    	       	       <input type="checkbox" name="services[64]" id="s64" value="64"> <label for="s64" class="checkbox category-service">Art</label>
+    	       	       <input type="checkbox" name="services[47]" id="s47" value="47"> <label for="s47" class="checkbox category-service">Arts</label>
+    	       	       <input type="checkbox" name="services[61]" id="s61" value="61"> <label for="s61" class="checkbox category-service">Computer</label>
+    	       	       <input type="checkbox" name="services[44]" id="s44" value="44"> <label for="s44" class="checkbox category-service">Geography</label>
+    	       	       <input type="checkbox" name="services[19]" id="s19" value="19"> <label for="s19" class="checkbox category-service">History</label>
+    	       	       <input type="checkbox" name="services[63]" id="s63" value="63"> <label for="s63" class="checkbox category-service">Music</label>
+    	       	       <input type="checkbox" name="services[36]" id="s36" value="36"> <label for="s36" class="checkbox category-service">Other</label>
+    	       	   </div>
+    	   <div class="col-sm-6">
+    	       	       <input type="checkbox" name="services[62]" id="s62" value="62"> <label for="s62" class="checkbox category-service">Philosophy</label>
+    	       	       <input type="checkbox" name="services[46]" id="s46" value="46"> <label for="s46" class="checkbox category-service">Psychology</label>
+    	       	       <input type="checkbox" name="services[18]" id="s18" value="18"> <label for="s18" class="checkbox category-service">Social Studies</label>
+    	       	       <input type="checkbox" name="services[146]" id="s146" value="146"> <label for="s146" class="checkbox category-service">Special Education</label>
+    	       	       <input type="checkbox" name="services[147]" id="s147" value="147"> <label for="s147" class="checkbox category-service">Study Skills</label>
+    	       	       <input type="checkbox" name="services[148]" id="s148" value="148"> <label for="s148" class="checkbox category-service">Summer Tutoring</label>
+    	       	   </div>
+    	</div>
+    	    	    	<div class="service-category" id="c_Pre_K" style=" display: none;">
+    	   <div class="col-sm-6">
+    	       	       <input type="checkbox" name="services[31]" id="s31" value="31"> <label for="s31" class="checkbox category-service">Pre-K </label>
+    	       	   </div>
+    	   <div class="col-sm-6">
+    	       	   </div>
+    	</div>
+    	    	    	<div class="service-category" id="c_Science" style=" display: none;">
+    	   <div class="col-sm-6">
+    	       	       <input type="checkbox" name="services[89]" id="s89" value="89"> <label for="s89" class="checkbox category-service">AP Biology</label>
+    	       	       <input type="checkbox" name="services[90]" id="s90" value="90"> <label for="s90" class="checkbox category-service">AP Chemistry</label>
+    	       	       <input type="checkbox" name="services[91]" id="s91" value="91"> <label for="s91" class="checkbox category-service">AP Environmental Science</label>
+    	       	       <input type="checkbox" name="services[92]" id="s92" value="92"> <label for="s92" class="checkbox category-service">Anatomy/Physiology</label>
+    	       	       <input type="checkbox" name="services[20]" id="s20" value="20"> <label for="s20" class="checkbox category-service">Biology</label>
+    	       	       <input type="checkbox" name="services[21]" id="s21" value="21"> <label for="s21" class="checkbox category-service">Chemistry</label>
+    	       	       <input type="checkbox" name="services[24]" id="s24" value="24"> <label for="s24" class="checkbox category-service">Earth Science</label>
+    	       	       <input type="checkbox" name="services[95]" id="s95" value="95"> <label for="s95" class="checkbox category-service">Environmental Science</label>
+    	       	       <input type="checkbox" name="services[25]" id="s25" value="25"> <label for="s25" class="checkbox category-service">General Science</label>
+    	       	   </div>
+    	   <div class="col-sm-6">
+    	       	       <input type="checkbox" name="services[23]" id="s23" value="23"> <label for="s23" class="checkbox category-service">Geology</label>
+    	       	       <input type="checkbox" name="services[96]" id="s96" value="96"> <label for="s96" class="checkbox category-service">Marine Science</label>
+    	       	       <input type="checkbox" name="services[163]" id="s163" value="163"> <label for="s163" class="checkbox category-service">Other</label>
+    	       	       <input type="checkbox" name="services[94]" id="s94" value="94"> <label for="s94" class="checkbox category-service">Physical Science</label>
+    	       	       <input type="checkbox" name="services[22]" id="s22" value="22"> <label for="s22" class="checkbox category-service">Physics</label>
+    	       	       <input type="checkbox" name="services[35]" id="s35" value="35"> <label for="s35" class="checkbox category-service">Science</label>
+    	       	       <input type="checkbox" name="services[93]" id="s93" value="93"> <label for="s93" class="checkbox category-service">Space Science</label>
+    	       	   </div>
+    	</div>
+    	    	    	<div class="service-category" id="c_Social_Science" style=" display: none;">
+    	   <div class="col-sm-6">
+    	       	       <input type="checkbox" name="services[159]" id="s159" value="159"> <label for="s159" class="checkbox category-service">Other</label>
+    	       	       <input type="checkbox" name="services[158]" id="s158" value="158"> <label for="s158" class="checkbox category-service">Psychology</label>
+    	       	   </div>
+    	   <div class="col-sm-6">
+    	       	   </div>
+    	</div>
+    	    	    	<div class="service-category" id="c_Social_Studies" style=" display: none;">
+    	   <div class="col-sm-6">
+    	       	       <input type="checkbox" name="services[127]" id="s127" value="127"> <label for="s127" class="checkbox category-service">AP Human Geography</label>
+    	       	       <input type="checkbox" name="services[128]" id="s128" value="128"> <label for="s128" class="checkbox category-service">AP Macroeconomics</label>
+    	       	       <input type="checkbox" name="services[129]" id="s129" value="129"> <label for="s129" class="checkbox category-service">AP Microeconomics</label>
+    	       	       <input type="checkbox" name="services[125]" id="s125" value="125"> <label for="s125" class="checkbox category-service">AP US History</label>
+    	       	       <input type="checkbox" name="services[126]" id="s126" value="126"> <label for="s126" class="checkbox category-service">AP World History</label>
+    	       	       <input type="checkbox" name="services[124]" id="s124" value="124"> <label for="s124" class="checkbox category-service">American Government</label>
+    	       	       <input type="checkbox" name="services[149]" id="s149" value="149"> <label for="s149" class="checkbox category-service">American History</label>
+    	       	       <input type="checkbox" name="services[150]" id="s150" value="150"> <label for="s150" class="checkbox category-service">European History</label>
+    	       	   </div>
+    	   <div class="col-sm-6">
+    	       	       <input type="checkbox" name="services[151]" id="s151" value="151"> <label for="s151" class="checkbox category-service">Geography</label>
+    	       	       <input type="checkbox" name="services[153]" id="s153" value="153"> <label for="s153" class="checkbox category-service">Other</label>
+    	       	       <input type="checkbox" name="services[152]" id="s152" value="152"> <label for="s152" class="checkbox category-service">Religious Studies</label>
+    	       	       <input type="checkbox" name="services[121]" id="s121" value="121"> <label for="s121" class="checkbox category-service">US Government</label>
+    	       	       <input type="checkbox" name="services[122]" id="s122" value="122"> <label for="s122" class="checkbox category-service">US History</label>
+    	       	       <input type="checkbox" name="services[123]" id="s123" value="123"> <label for="s123" class="checkbox category-service">World History</label>
+    	       	   </div>
+    	</div>
+    	    	    	<div class="service-category" id="c_Technology_Computer_Science" style=" display: none;">
+    	   <div class="col-sm-6">
+    	       	       <input type="checkbox" name="services[134]" id="s134" value="134"> <label for="s134" class="checkbox category-service">BASIC</label>
+    	       	       <input type="checkbox" name="services[72]" id="s72" value="72"> <label for="s72" class="checkbox category-service">Computer basics</label>
+    	       	       <input type="checkbox" name="services[83]" id="s83" value="83"> <label for="s83" class="checkbox category-service">Digital Media</label>
+    	       	       <input type="checkbox" name="services[71]" id="s71" value="71"> <label for="s71" class="checkbox category-service">Graphics/web</label>
+    	       	       <input type="checkbox" name="services[135]" id="s135" value="135"> <label for="s135" class="checkbox category-service">JavaScript</label>
+    	       	   </div>
+    	   <div class="col-sm-6">
+    	       	       <input type="checkbox" name="services[84]" id="s84" value="84"> <label for="s84" class="checkbox category-service">Other</label>
+    	       	       <input type="checkbox" name="services[73]" id="s73" value="73"> <label for="s73" class="checkbox category-service">Programming</label>
+    	       	       <input type="checkbox" name="services[136]" id="s136" value="136"> <label for="s136" class="checkbox category-service">Python</label>
+    	       	       <input type="checkbox" name="services[137]" id="s137" value="137"> <label for="s137" class="checkbox category-service">Ruby</label>
+    	       	   </div>
+    	</div>
+    	    	    	<div class="service-category" id="c_Test_Prep" style=" display: none;">
+    	   <div class="col-sm-6">
+    	       	       <input type="checkbox" name="services[60]" id="s60" value="60"> <label for="s60" class="checkbox category-service">ACT</label>
+    	       	       <input type="checkbox" name="services[32]" id="s32" value="32"> <label for="s32" class="checkbox category-service">Math</label>
+    	       	       <input type="checkbox" name="services[74]" id="s74" value="74"> <label for="s74" class="checkbox category-service">Nursing Exams</label>
+    	       	       <input type="checkbox" name="services[109]" id="s109" value="109"> <label for="s109" class="checkbox category-service">Other</label>
+    	       	       <input type="checkbox" name="services[80]" id="s80" value="80"> <label for="s80" class="checkbox category-service">PSAT</label>
+    	       	       <input type="checkbox" name="services[59]" id="s59" value="59"> <label for="s59" class="checkbox category-service">SAT</label>
+    	       	   </div>
+    	   <div class="col-sm-6">
+    	       	       <input type="checkbox" name="services[108]" id="s108" value="108"> <label for="s108" class="checkbox category-service">SSAT</label>
+    	       	       <input type="checkbox" name="services[66]" id="s66" value="66"> <label for="s66" class="checkbox category-service">Science</label>
+    	       	       <input type="checkbox" name="services[75]" id="s75" value="75"> <label for="s75" class="checkbox category-service">Social Work</label>
+    	       	       <input type="checkbox" name="services[81]" id="s81" value="81"> <label for="s81" class="checkbox category-service">State Test</label>
+    	       	       <input type="checkbox" name="services[65]" id="s65" value="65"> <label for="s65" class="checkbox category-service">Verbal</label>
+    	       	   </div>
+    	</div>
+    	 
+	</div>
+</div>
+
+<script type="text/javascript">
+jQuery(document).ready(function(){
+	// select category
+	jQuery(document).on('click', '.category-option', function(){
+	    jQuery('.category-option').each(function(){
+	        jQuery(this).removeClass('active');
+	    });
+	    jQuery('.service-category').each(function(){
+	        jQuery(this).css('display', 'none');
+	    });
+	    jQuery(this).addClass('active');
+	    jQuery('#'+jQuery(this).attr('id').split('-')[1]).css('display', 'block');
+//	    jQuery('.category-options').attr('height', jQuery('.category-services').height);
+	});
+	jQuery(document).on('change', '.category-select', function(){
+	    jQuery('.service-category').each(function(){
+	        jQuery(this).css('display', 'none');
+	    });
+	    jQuery('#'+jQuery(this).val().split('-')[1]).css('display', 'block');
+	});
+	// mark number selected
+	jQuery(document).on('click', '.service-category', function(){
+	    var id = jQuery(this).attr('id');
+	    jQuery('#show-' + id + ' .badge').text(jQuery('#' + id + ' :checked').length);
+	});
+});
+</script>
+</fieldset>
+<div style="margin:14px 0 0 5px;"><label></label><button name="back" type="button" class="btn btn-default back actionBtn">Back</button> <input type="submit" name="submit" value="Submit" id="form_request_submit" class="btn btn-default"></div>
+</div>
+<script type="text/javascript" src="https://dashboard.clubztutoring.com/request/js/emp"></script><input type="hidden" id="apbct_visible_fields_0" name="apbct_visible_fields" value="eyIwIjp7InZpc2libGVfZmllbGRzIjoiY291bnJ0eSB6aXBfY29kZSBmbmFtZSBsbmFtZSBwaG9uZVtob21lXSBlbWFpbCBzdHJlZXQxIHN0cmVldDIgY2l0eSBzdGF0ZSBlbXBfcmVmZXJyZWRfYnkgYmFjayBjb250aW51ZSB1Z3JhZF9jb2xfbmFtZSB1Z3JhZF9tYWpvciB1Z3JhZF9kZWdyZWVfdHlwZSB1Z3JhZF95ciBncmFkX2NvbF9uYW1lIGdyYWRfbWFqb3IgZ3JhZF9kZWdyZWVfdHlwZSBncmFkX3lyIGVtcF9jZXJ0X2xpc3QgYmFjayBjb250aW51ZSBhdmFpbGFiaWxpdHlbdHMwXVswXSBhdmFpbGFiaWxpdHlbdHMwXVsxXSBhdmFpbGFiaWxpdHlbdHMwXVsyXSBocnNfcGVyX3drIGJhY2sgY29udGludWUgY2F0ZWdvcnkgYmFjayIsInZpc2libGVfZmllbGRzX2NvdW50IjozMiwiaW52aXNpYmxlX2ZpZWxkcyI6ImZyYW5jaGlzZV9jb2RlIHR5cGUgc2VydmljZXNbXSIsImludmlzaWJsZV9maWVsZHNfY291bnQiOjN9fQ=="></form>
+</div>
+<div style="padding-bottom: 45px;"></div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+         <div class="section_guarantee" style="background:url(https://clubztutoring.com/wp-content/uploads/2017/11/guarantee-bg.jpg) no-repeat top center;">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+                       <div class="left_colFit height_same">
+				Find the <strong>right fit or it’s free.</strong>            </div>
+                        <div class="midd_logo">
+				  <img src="https://clubztutoring.com/wp-content/uploads/2017/11/guarantee.png" alt="Club Z! Guarantee In Home Tutors &amp; Online Tutors" title="">			</div>
+			             <div class="right_colFit height_same">
+              <p>We guarantee you’ll find the right tutor, or we’ll cover the first hour of your lesson.</p>
+            </div>
+                      </div> 
+        </div>
+      </div>
+    </div>
+        <div class="testimonials_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+              <div class="client_review">
+                <div class="carousel-indicators">
+                                   <div class="client_pic" data-target="#quote-carousel" data-slide-to="0"> <img src="https://clubztutoring.com/wp-content/uploads/2017/10/client-pic-5.jpg" class="attachment-thumbnail-testimonial size-thumbnail-testimonial wp-post-image" alt="" loading="lazy"></div>
+                                   <div class="client_pic" data-target="#quote-carousel" data-slide-to="1"> <img src="https://clubztutoring.com/wp-content/uploads/2017/10/client-pic-4.jpg" class="attachment-thumbnail-testimonial size-thumbnail-testimonial wp-post-image" alt="" loading="lazy"></div>
+                                   <div class="client_pic" data-target="#quote-carousel" data-slide-to="2"> <img src="https://clubztutoring.com/wp-content/uploads/2017/10/client-pic-3-144x137.jpg" class="attachment-thumbnail-testimonial size-thumbnail-testimonial wp-post-image" alt="" loading="lazy"></div>
+                                   <div class="client_pic active" data-target="#quote-carousel" data-slide-to="3"> <img src="https://clubztutoring.com/wp-content/uploads/2017/10/client-pic-2.jpg" class="attachment-thumbnail-testimonial size-thumbnail-testimonial wp-post-image" alt="" loading="lazy"></div>
+                                   <div class="client_pic" data-target="#quote-carousel" data-slide-to="4"> <img src="https://clubztutoring.com/wp-content/uploads/2017/10/client-pic-1.jpg" class="attachment-thumbnail-testimonial size-thumbnail-testimonial wp-post-image" alt="" loading="lazy"></div>
+                                 </div>
+              </div>
+              <div class="review_content">
+                              <h4>Testimonials</h4>
+                                <div class="client_content">
+                  <div class="carousel-inner text-center"> 
+                    <!-- Quote 1 -->
+                                        <div class="item">
+                      <div class="content_test">
+                        <p>Club Z! has connected me with a tutor through their online platform! This was exactly the one-on-one attention I needed for my math exam. I was very pleased with the sessions and ClubZ’s online tutoring interface. </p>
+ <img src="https://clubztutoring.com/wp-content/themes/clubz-003/images/code-bottom.png" alt="">
+                      </div>
+                    </div>
+                                        <div class="item">
+                      <div class="content_test">
+                        <p>My son was suffering from low confidence in his educational abilities. I was in need of help and quick. Club Z! assigned Charlotte (our tutor) and we love her! My son’s grades went from D’s to A’s and B’s.</p>
+ <img src="https://clubztutoring.com/wp-content/themes/clubz-003/images/code-bottom.png" alt="">
+                      </div>
+                    </div>
+                                        <div class="item">
+                      <div class="content_test">
+                        <p>I’ve been using Club Z’s online classrooms to receive some help and tutoring for 2 of my college classes. I must say that I am very impressed by the functionality and ease of use of their online App. Working online with my tutor has been a piece of cake. Thanks Z.</p>
+ <img src="https://clubztutoring.com/wp-content/themes/clubz-003/images/code-bottom.png" alt="">
+                      </div>
+                    </div>
+                                        <div class="item active">
+                      <div class="content_test">
+                        <p>Jonathan is doing really well in all of his classes this semester, 5 A’s &amp; 2 B’s (he has a computer essentials class instead of PLC). In his Algebra class that Nathan is helping him with he has an A+.</p>
+ <img src="https://clubztutoring.com/wp-content/themes/clubz-003/images/code-bottom.png" alt="">
+                      </div>
+                    </div>
+                                        <div class="item">
+                      <div class="content_test">
+                        <p>Sarah is very positive, enthusiastic and encourages my daughter to do better each time she comes. My daughter’s grade has improved, we are very grateful for Sarah and that she is tutoring our daughter. Way to go ClubZ!</p>
+ <img src="https://clubztutoring.com/wp-content/themes/clubz-003/images/code-bottom.png" alt="">
+                      </div>
+                    </div>
+                                      </div>
+                </div>
+                <ol class="carousel-indicators Testimonials_vol">
+                                  <li data-target="#quote-carousel" data-slide-to="0" class=""></li>
+ 				                  <li data-target="#quote-carousel" data-slide-to="1"></li>
+ 				                  <li data-target="#quote-carousel" data-slide-to="2"></li>
+ 				                  <li data-target="#quote-carousel" data-slide-to="3"></li>
+ 				                  <li data-target="#quote-carousel" data-slide-to="4"></li>
+ 				                </ol>
+              </div>
+            </div>
+            <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><img src="https://clubztutoring.com/wp-content/themes/clubz-003/images/left-arrow.png" alt=""></a> <a data-slide="next" href="#quote-carousel" class="right carousel-control"><img src="https://clubztutoring.com/wp-content/themes/clubz-003/images/right-arrow.png" alt=""></a> </div>
+        </div>
+      </div>
+    </div>
+    
+   
+  </div>
+</section>
+		
+		</div>
+		<div id="page4" style="display: none;">This is Page 4</div>
+	</div>
+
+	<script>
+		function showPage(pageIndex) {
+			// Hide all pages
+			var pages = document.querySelectorAll(".container div");
+			for (var i = 0; i < pages.length; i++) {
+				pages[i].style.display = "none";
+			}
+
+			// Show the selected page
+			var selectedPage = document.querySelector("#page" + (pageIndex + 1));
+			selectedPage.style.display = "block";
+
+			// Update active tab
+			var tabs = document.querySelectorAll("ul li a");
+			for (var i = 0; i < tabs.length; i++) {
+				tabs[i].classList.remove("active");
+			}
+			tabs[pageIndex].classList.add("active");
+		}
+	</script>
+</body>
+</html>
