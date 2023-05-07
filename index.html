@@ -43,13 +43,12 @@
 			min-height: 500px;
 		}
 	</style>
-	<script>
-		$(document).ready(function(){
-
-		   $('#content').load("new.html");
-
-		});
-	</script>
+	<script src="jquery.js"></script> 
+        <script> 
+        $(function(){
+          $("#includedContent").load("b.html"); 
+        });
+        </script> 
 </head>
 <body>
 	<ul>
@@ -64,7 +63,9 @@
       <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&showTitle=0&showPrint=0&showTabs=0&src=ZGZiOTZiOTY1Yjc1ZmM4NTk2MTNkZDY3N2EwNTM4YzMxYzg5NGIyNzZiZDFmMDBkOTY5NDFlZDc3ODMxMGE1MUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23EF6C00" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
     </div>
 		<div id="page3" style="display: none;">
-			<div id="content"></div>
+		     <body> 
+		     	<div id="includedContent"></div>
+		     </body> 
 		</div>
 		<div id="page4" style="display: none;">This is Page 4</div>
 	</div>
