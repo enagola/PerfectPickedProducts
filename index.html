@@ -103,6 +103,8 @@
 
       <script>
          function showPage(pageIndex) {
+		changeImage(pageIndex);
+		 
          	// Hide all pages
          	var pages = document.querySelectorAll(".container div");
          	for (var i = 0; i < pages.length; i++) {
@@ -119,8 +121,6 @@
          		tabs[i].classList.remove("active");
          	}
          	tabs[pageIndex].classList.add("active");
-		 
-		changeImage(pageIndex);
          }
 	      
 	function changeImage(pageNum) {
