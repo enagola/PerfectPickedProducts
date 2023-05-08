@@ -4,9 +4,9 @@
       <title>My Website</title>
       <style>
          body {
-			height: 1000px; /* set the height of the body */
-			overflow: auto; /* enable the scroll feature */
-		   }
+         margin: 0;
+         padding: 0;
+         }
          ul {
          list-style-type: none;
          margin: 0;
@@ -31,26 +31,48 @@
          background-color: #4CAF50;
          }
          .container {
-         margin-top: 30px;
+         margin-top: 50px;
          padding: 20px;
          font-size: 30px;
          min-height: 500px;
          }
+         
+         .header {
+         	position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+  		 	opacity: 0.4;
+         }
+         
+         .headerimage {
+         	position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+			width: 100%;
+         }
       </style>
    </head>
    <body>
-      <ul>
+      <ul class="header">
          <li><a class="active" href="#" onclick="showPage(0)">Page 1</a></li>
          <li><a href="#" onclick="showPage(1)">Calendar</a></li>
-         <li><a href="#" onclick="showPage(2)">Be a Tutor</a></li>
+         <li><a href="#" onclick="showPage(2)">Page 3</a></li>
          <li><a href="#" onclick="showPage(3)">Page 4</a></li>
       </ul>
       <div class="container">
-         <div id="page1" style="display: block;">This is Page 1</div>
+         <div id="page1" style="display: block;">
+            <p class=headerimage>image here</p>
+            
+         	This is Page 1
+          </div>
          <div id="page2" style="display: none;">
+            <p class=headerimage>image here</p>
             <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&showTitle=0&showPrint=0&showTabs=0&src=ZGZiOTZiOTY1Yjc1ZmM4NTk2MTNkZDY3N2EwNTM4YzMxYzg5NGIyNzZiZDFmMDBkOTY5NDFlZDc3ODMxMGE1MUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23EF6C00" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
          </div>
          <div id="page3" style="display: none;">
+            <p class=headerimage>image here</p>
             <section>
                <a id="drf"></a>
                <p></p>
@@ -59,7 +81,7 @@
                </p><table id="drfpagelist" class=""><tbody><tr><td style="width: 25%;"><span class="dRFSecSel opt1 dRFSelected" id="dRFSection-0" style="padding: 5px; margin: 0px 2px; cursor: pointer;"><img class="opt opt-1-img img-responsive" width="100%" src="//dashboard.clubztutoring.com//assets/icons/emp_app/sect-1.png" alt=""></span></td><td style="width: 25%;"><span class="dRFSecSel opt2" id="dRFSection-1" style="padding: 5px; margin: 0px 2px; cursor: pointer;"><img class="opt opt-2-img img-responsive" width="100%" src="//dashboard.clubztutoring.com//assets/icons/emp_app/sect-2.png" alt=""></span></td><td style="width: 25%;"><span class="dRFSecSel opt3" id="dRFSection-2" style="padding: 5px; margin: 0px 2px; cursor: pointer;"><img class="opt opt-3-img img-responsive" width="100%" src="//dashboard.clubztutoring.com//assets/icons/emp_app/sect-3.png" alt=""></span></td><td style="width: 25%;"><span class="dRFSecSel opt4" id="dRFSection-3" style="padding: 5px; margin: 0px 2px; cursor: pointer;"><img class="opt opt-4-img img-responsive" width="100%" src="//dashboard.clubztutoring.com//assets/icons/emp_app/sect-4.png" alt=""></span></td></tr></tbody></table>
                <p>Fields marked with <span class="required-icon">*</span> are required.</p>
                
-               <form>
+               <form method="post">
                    <label for="name">Name:</label>
                    <input type="text" id="name" name="name" required>
                    <br>
@@ -74,8 +96,12 @@
                
             </section>    
          </div>
-         <div id="page4" style="display: none;">This is Page 4</div>
+         <div id="page4" style="display: none;">
+            <p class=headerimage>image here</p>
+            This is Page 4
+         </div>
       </div>
+
       <script>
          function showPage(pageIndex) {
          	// Hide all pages
