@@ -76,18 +76,6 @@
          </div>
          <div id="page4" style="display: none;">This is Page 4</div>
       </div>
-      <?php
-          $to = "ethannagola@gmail.com";
-          $subject = "New message from website";
-          $name = $_POST['name'];
-          $email = $_POST['email'];
-          $message = $_POST['message'];
-          $headers = "From: $name <$email>" . "\r\n" .
-                     "Reply-To: $email" . "\r\n" .
-                     "X-Mailer: PHP/" . phpversion();
-          mail($to, $subject, $message, $headers);
-      ?>
-
       <script>
          function showPage(pageIndex) {
          	// Hide all pages
