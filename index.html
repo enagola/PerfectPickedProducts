@@ -61,7 +61,7 @@
          <li><a href="#" onclick="showPage(2)">Page 3</a></li>
          <li><a href="#" onclick="showPage(3)">Page 4</a></li>
       </ul>
-      <image src="tutoring.png" height="340" width="100%">
+      <image id="topimage" src="tutoring.png" height="340" width="100%">
       <div class="container">
          <div id="page1" style="display: block;">
          	This is Page 1
@@ -119,7 +119,26 @@
          		tabs[i].classList.remove("active");
          	}
          	tabs[pageIndex].classList.add("active");
+		 
+		changeImage(pageIndex);
          }
+	      
+	function changeImage(pageNum) {
+		var image = document.getElementById("topimage");
+		switch (pageNum) {
+			case 1:
+				image.src = "tutoring.png";
+				break;
+			case 2:
+				image.src = "tutoring.png";
+				break;
+			case 3:
+				image.src = "tutoring.png";
+				break;
+			default:
+				image.src = "tutoring.png";
+		}
+	}
       </script>
    </body>
 </html>
