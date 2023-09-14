@@ -3,6 +3,7 @@
    <head>
       <title>My Website</title>
       <style>
+         h1 {text-align: center;}
          body {
          margin: 0;
          padding: 0;
@@ -52,22 +53,97 @@
             right: 0;
 			width: 100%;
          }
+
+         .selfie {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+         }
+
+   
       </style>
    </head>
-   <body>
+   <body style="background-image: linear-gradient(white, teal)">
       <ul class="header">     
-         <li><a class="active" href="#" onclick="showPage(0)">Page 1</a></li>
-         <li><a href="#" onclick="showPage(1)">Calendar</a></li>
-         <li><a href="#" onclick="showPage(2)">Page 3</a></li>
-         <li><a href="#" onclick="showPage(3)">Page 4</a></li>
+         <li><a class="active" href="#" onclick="showPage(0)">Home Page</a></li>
+         <!-- <li><a href="#" onclick="showPage(1)">Get Help In A Subject</a></li> -->
+         <li><a href="#" onclick="showPage(2)">Apply To Be A Tutor</a></li>
+         <!-- <li><a href="#" onclick="showPage(3)">Calendar</a></li> -->
       </ul>
-      <image id="topimage" src="tutoring.png" height="340" width="100%">
+      <!-- <image id="topimage" src="graduate.png" height="10%" width="100%"> -->
       <div class="container">
          <div id="page1" style="display: block;">
-         	This is Page 1
+         	<h1 class="center">About Nagola Tutoring</h1>
+
+            <div class="row-container" style="display: flex; background-image: linear-gradient(white, teal);">
+               <div class="container" style="flex: 1;">
+                  <img class="container--medium" id="topimage" src="selfie.png" style="max-width: 100%; height: auto;">
+               </div>
+            
+               <div class="container container--medium" style="flex: 1;">
+                  <p style="font-size: 24px;">
+                     After tutoring over the last 6 years, I have experienced a variety of different students and helped them all succeed in their own way.
+                     Over the years, I have culminated methods of tutoring both in person and online to best guide my students to success.
+                     Taking confusion and frustration in math and science and turning it into understanding and interest. Tutoring can be the difference between a D and an A.
+                     Sometimes students just need a new approach to a subject to help them understand as every student learns differently.
+                  </p>
+                  <p style="font-size: 24px;">
+                     As my number of students grew, I began looking for help and vetted other tutors that I believed would do a great job to help me with students.
+                     Overtime, I wanted to help more and more students, so I created an easy way to have a connection between students and teachers.
+                     I personally make sure that the student is having their needs met and follow up to see how we can best help the students.
+                  </p>
+                  <p style="font-size: 24px;">
+                     If you need professional, affordable help in Math or Science of all levels, you can text me at +1 (858) 213-1580 and I will make sure to find the best fit for your student based on their needs and availability.
+                  </p>
+               </div>
+            </div>
+            
+            <div class="row-container" style="background-color: beige; display: flex; height: 400px;">
+               <div class="icon-container" style="margin-top: 30px;">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="120px" height="60px" viewBox="0 0 24 24">
+                     <g fill="green" fill-rule="evenodd">
+                        <path d="M17,12V3A1,1 0 0,0 16,2H3A1,1 0 0,0 2,3V17L6,13H16A1,1 0 0,0 17,12M21,6H19V15H6V17A1,1 0 0,0 7,18H18L22,22V7A1,1 0 0,0 21,6Z"></path>
+                     </g>
+                  </svg>
+                  <div class="container container--medium" style="margin-top: 10px;">
+                     <p style = "font-size: 24px;">Tutoring personalized for each individual student to best help them succeed in their own way.</p>
+                  </div>
+               </div>
+            
+               <div class="icon-container" style="margin-top: 30px;">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="120px" height="60px" viewBox="0 0 24 24">
+                     <g fill="teal" fill-rule="evenodd">
+                        <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M16.2,16.2L11,13V7H12.5V12.2L17,14.9L16.2,16.2Z"></path>
+                     </g>
+                  </svg>
+                  <div class="container container--medium" style="margin-top: 10px;">
+                     <p style = "font-size: 24px;">Day, night and weekend appointment options to accommodate your schedule.</p>
+                  </div>
+               </div>
+            
+               <div class="icon-container" style="margin-top: 30px;">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="120px" height="60px" viewBox="0 0 24 24">
+                     <g fill="gold" fill-rule="evenodd">
+                        <path d="M4,3C2.89,3 2,3.89 2,5V15A2,2 0 0,0 4,17H12V22L15,19L18,22V17H20A2,2 0 0,0 22,15V8L22,6V5A2,2 0 0,0 20,3H16V3H4M12,5L15,7L18,5V8.5L21,10L18,11.5V15L15,13L12,15V11.5L9,10L12,8.5V5M4,5H9V7H4V5M4,9H7V11H4V9M4,13H9V15H4V13Z"></path>
+                     </g>
+                  </svg>
+                  <div class="container container--medium" style="margin-top: 10px;">
+                     <p style = "font-size: 24px;">Rigorous interviewing and vetting ensures you receive the best Writing tutor.</p>
+                  </div>
+               </div>
+            </div>
+
+            <div style="background-color: teal; display: flex;">
+               <h1>~Any Inqueries? Text or Call +1 (858) 213-1580~</h1>
+            </div>
+            
+             
+             
+          </div>
           </div>
          <div id="page2" style="display: none;">
-            <center><iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&showTitle=0&showPrint=0&showTabs=0&src=ZGZiOTZiOTY1Yjc1ZmM4NTk2MTNkZDY3N2EwNTM4YzMxYzg5NGIyNzZiZDFmMDBkOTY5NDFlZDc3ODMxMGE1MUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23EF6C00" style="border-width:0" width="90%" height="600" frameborder="10" scrolling="no"></iframe></center>
+            This is Page 4
          </div>
          <div id="page3" style="display: none;">
             <section>
@@ -76,25 +152,14 @@
                <h3><strong>Become a Tutor and Help All Types of Students!</strong></h3>
                <p>We seek qualified applicants for tutoring jobs nationwide. Enjoy the flexibility and compensation of a tutor job in your field. We encourage all educational enthusiasts to be a tutor and make a difference in someone’s life.
                </p><table id="drfpagelist" class=""><tbody><tr><td style="width: 25%;"><span class="dRFSecSel opt1 dRFSelected" id="dRFSection-0" style="padding: 5px; margin: 0px 2px; cursor: pointer;"><img class="opt opt-1-img img-responsive" width="100%" src="//dashboard.clubztutoring.com//assets/icons/emp_app/sect-1.png" alt=""></span></td><td style="width: 25%;"><span class="dRFSecSel opt2" id="dRFSection-1" style="padding: 5px; margin: 0px 2px; cursor: pointer;"><img class="opt opt-2-img img-responsive" width="100%" src="//dashboard.clubztutoring.com//assets/icons/emp_app/sect-2.png" alt=""></span></td><td style="width: 25%;"><span class="dRFSecSel opt3" id="dRFSection-2" style="padding: 5px; margin: 0px 2px; cursor: pointer;"><img class="opt opt-3-img img-responsive" width="100%" src="//dashboard.clubztutoring.com//assets/icons/emp_app/sect-3.png" alt=""></span></td><td style="width: 25%;"><span class="dRFSecSel opt4" id="dRFSection-3" style="padding: 5px; margin: 0px 2px; cursor: pointer;"><img class="opt opt-4-img img-responsive" width="100%" src="//dashboard.clubztutoring.com//assets/icons/emp_app/sect-4.png" alt=""></span></td></tr></tbody></table>
-               <p>Fields marked with <span class="required-icon">*</span> are required.</p>
+               <p>Text us at +1 (858) 213-1580 <span class="required-icon">
                
-               <form method="post">
-                   <label for="name">Name:</label>
-                   <input type="text" id="name" name="name" required>
-                   <br>
-                   <label for="email">Email:</label>
-                   <input type="email" id="email" name="email" required>
-                   <br>
-                   <label for="message">Message:</label>
-                   <textarea id="message" name="message" required></textarea>
-                   <br>
-                   <input type="submit" value="Submit">
-               </form>
                
             </section>    
          </div>
          <div id="page4" style="display: none;">
-            This is Page 4
+            <center><iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&showTitle=0&showPrint=0&showTabs=0&src=ZGZiOTZiOTY1Yjc1ZmM4NTk2MTNkZDY3N2EwNTM4YzMxYzg5NGIyNzZiZDFmMDBkOTY5NDFlZDc3ODMxMGE1MUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23EF6C00" style="border-width:0" width="90%" height="600" frameborder="10" scrolling="no"></iframe></center>
+
          </div>
       </div>
 
@@ -124,13 +189,13 @@
 		var image = document.getElementById("topimage");
 		switch (pageNum) {
 			case 1:
-				image.src = "calendar.png";
+				image.src = "happy.png";
 				break;
 			case 2:
 				image.src = "tutoring.png";
 				break;
 			case 3:
-				image.src = "happy.png";
+				image.src = "calendar.png";
 				break;
 			default:
 				image.src = "graduate.png";
