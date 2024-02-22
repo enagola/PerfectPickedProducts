@@ -129,7 +129,6 @@ If you have any questions or concerns regarding this Privacy Policy or our data 
 
       <script>
          function showPage(pageIndex) {
-		changeImage(pageIndex);
 		 
          	// Hide all pages
          	var pages = document.querySelectorAll(".container div");
@@ -148,23 +147,6 @@ If you have any questions or concerns regarding this Privacy Policy or our data 
          	}
          	tabs[pageIndex].classList.add("active");
          }
-	      
-	function changeImage(pageNum) {
-		var image = document.getElementById("topimage");
-		switch (pageNum) {
-			case 1:
-				image.src = "happy.png";
-				break;
-			case 2:
-				image.src = "tutoring.png";
-				break;
-			case 3:
-				image.src = "calendar.png";
-				break;
-			default:
-				image.src = "graduate.png";
-		}
-	}
       </script>
    </body>
 </html>
